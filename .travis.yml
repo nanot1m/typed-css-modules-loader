@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '6'
+- '8'
+deploy:
+  provider: npm
+  email: bboytx@gmail.com
+  api_key:
+    secure: qyUnDf246ZB8cssGOkiniWlt4MVrihvQdjMj+eMXwYZocM3xCThO6P8uiAbEgSRu7D77WWANw0mAygWuyGEPwyN0TuwJv+Uih110F6dfeIM2CQiZUUwLEQhg9GsYMSQEWz8BdYVtQTwdJPzSvTC+jdwpMiOyTodb/Xvm12E6B9yGX7jFmyXG8g7KdYLvaM/tEHLCAslApwiodYBzI6NQJy97OUM2t+sKzV6EfKzb9+ZLf0KN8F2Oy54S/78q2NXlp22RJ3foebROHbBx31VdwfucbVQ0VYurdtBCxrombaS7Eeb+EElRMu8ZrIrzMn4zNIFXJWcREivTTSEq+EPhRkKbmE0L1dzk/kLLmUirljUrnZqF11Otz0+Z8Jimb3ygvDNl8zspfUe4hNXhVdK0gQgK5gZB7BXD6008HIn7Z0QX9quBhZGGBRQEOrOmDe8PrlKRpegOuJjhnXFTzadlQ0OyyfuWhlAEiJj+zW+vyje0+4v/Upf2gpkyohGJyONOS8wLhlx6BDT3qb12tPnmt7qtf0iAPxOuBAZEDhLs9p67qIRIG5C6oh/ohT7uFNu9P3tnPIR+HGAYj26QMCztX02uo236BRR+QVi9fodXHgfSbBTw6GFaWrPXvye0aF04QrNPAgQZGj8wiWvOg/GYL47iB+ZHvF9Dwz4WBZU9Psc=
+  on:
+    tags: true
+    repo: nanot1m/typed-css-modules-loader
