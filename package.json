@@ -10,11 +10,7 @@
     "type": "git",
     "url": "https://github.com/nanot1m/typed-css-modules-loader.git"
   },
-  "keywords": [
-    "typescript",
-    "typed",
-    "css-modules"
-  ],
+  "keywords": ["typescript", "typed", "css-modules"],
   "author": "Oleg Stepura",
   "license": "MIT",
   "bugs": {
@@ -23,5 +19,8 @@
   "dependencies": {
     "loader-utils": "^1.1.0",
     "@skbkontur/typed-css-modules": "^0.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
