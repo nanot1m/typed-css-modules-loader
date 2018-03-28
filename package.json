@@ -1,6 +1,6 @@
 {
   "name": "@skbkontur/typed-css-modules-loader",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Webpack loader for typed-css-modules",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,11 @@
     "type": "git",
     "url": "https://github.com/nanot1m/typed-css-modules-loader.git"
   },
-  "keywords": ["typescript", "typed", "css-modules"],
+  "keywords": [
+    "typescript",
+    "typed",
+    "css-modules"
+  ],
   "author": "Oleg Stepura",
   "license": "MIT",
   "bugs": {
