@@ -3,16 +3,14 @@
   "version": "0.1.2",
   "description": "Webpack loader for typed-css-modules",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "echo \"Warning: no test specified\" && exit 0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/nanot1m/typed-css-modules-loader.git"
   },
-  "keywords": [
-    "typescript",
-    "typed",
-    "css-modules"
-  ],
+  "keywords": ["typescript", "typed", "css-modules"],
   "author": "Oleg Stepura",
   "license": "MIT",
   "bugs": {
