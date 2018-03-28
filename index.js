@@ -1,6 +1,6 @@
-var path = require('path');
-var DtsCreator = require('typed-css-modules');
-var loaderUtils = require('loader-utils');
+var path = require("path");
+var DtsCreator = require("@skbkontur/typed-css-modules");
+var loaderUtils = require("loader-utils");
 
 module.exports = function(source, map) {
   this.cacheable && this.cacheable();
@@ -25,8 +25,12 @@ module.exports = function(source, map) {
   // source variable. Check API for more details.
   creator.create(this.resourcePath, source).then(content => {
     if (emitFile) {
-        // Emit the created content as well
-        this.emitFile(path.relative(this.options.context, content.outputFilePath), content.contents || [''], map);
+      // Emit the created content as well
+      this.emitFile(
+        path.relative(this.options.context, content.outputFilePath),
+        content.contents || [""],
+        map
+      );
     }
     content.writeFile().then(_ => {
       callback(null, source, map);
